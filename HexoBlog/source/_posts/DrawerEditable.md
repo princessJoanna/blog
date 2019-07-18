@@ -9,3 +9,16 @@ tags:
 ![avatar](http://chuantu.xyz/t6/702/1563454056x2728278714.jpg)
 销售订单详情表身
 ![avatar](http://chuantu.xyz/t6/702/1563454120x2073530529.jpg)
+```
+ import DrawerEditable from '@/components/Editable/DrawerEditable'
+      <DrawerEditable
+        readonly={readonly.readOnly} //只读属性
+        dataSource={datalist} //列表数据源
+        drawerListChange={(data) => {
+            // 表格数据改变回调函数
+        }}
+        scroll={{x: 1000}} //超过多上滚动
+        columns={columns} // 列名
+      />
+ ```script
+
