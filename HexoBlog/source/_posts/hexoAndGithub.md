@@ -26,10 +26,10 @@ hexo主题选择可以参考地址 https://www.zhihu.com/question/24422335
 title: 点滴
 author: Joanna
 deploy:
-type: git
-repository: https://github.com/princessJoanna/princessJoanna.github.io.git
-branch: master
-（注意：deploy: 后面要有空格）
+  type: git
+  repository: https://github.com/princessJoanna/princessJoanna.github.io.git
+   branch: master
+（特别注意：分号后面都要后空格，tpye前面要有空格,sshkey没有添加的话需要先增加sshkey到github上面）
 
 7、生成静态页面
 hexo generate
